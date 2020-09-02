@@ -18,7 +18,10 @@ import com.mangesh.service.IEmployeeService;
 public class EmployeeController {
 	
 	private static final Logger log=LoggerFactory.getLogger(EmployeeController.class);
-
+         /**
+	 *  By using autowired 
+	 *  it will create proxy object at runtime 
+	 */
 	@Autowired
 	private IEmployeeService iEmployeeService;
 
